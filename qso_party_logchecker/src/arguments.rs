@@ -3,8 +3,11 @@
     use std::env;
     use std::process;
     
+    use crate::file_utils::file_exists;
+
     // Process the command line arguments and return the name of the config file
     // If an error occurs (config file not provided) then the process exits
+    // If the config file does not exist, issue an error and exit the process 
     pub fn process_arguments() -> String {
 
         let args: Vec<String> = env::args().collect();
@@ -28,5 +31,14 @@
         }
         
         let config = &args[1];
+
+        let exists: bool = file_exists(config);
+
+        // if the configuration file does not exist, issue an error and exit the process
+        if false == exists {
+            println!("Error: File {} does not exist :-(", config);
+            process::exit(2);
+        }
+
         config.to_string()
     }

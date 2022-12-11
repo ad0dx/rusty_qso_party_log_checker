@@ -1,0 +1,44 @@
+# This is a comment
+# Kansas QSO Party Configuration File
+
+[General]
+Title=Kansas QSO Party
+TitleAbbrev=KSQP
+StateAbbrev=KS
+State=Kansas
+
+[ConfigFiles]
+Folder=c:\learn\qsopartylogchecker\ksqp\ConfigFiles
+Counties=kscounties.txt
+States=states.txt
+ARRLSections = arrlsections.txt
+Canada=Canada.txt
+Categories=Categories.txt
+
+[Folders]
+#Logs=c:\learn\qsopartylogchecker\test01
+#Logs=c:\learn\qsopartylogchecker\test04
+#Root=C:\Learn\QsoPartyLogChecker\KSQP
+Logs=C:\Learn\qsopartylogchecker\ksqp\logsyyy
+MissingLogs=C:\Learn\qsopartylogchecker\ksqp\MissingLogs
+Results=c:\learn\qsopartylogchecker\ksqp\Results
+LogReports=c:\learn\qsopartylogchecker\ksqp\LogReports
+HTML=c:\Learn\QsoPartyLogChecker\KSQP\html
+
+[Qso]
+freq
+mode
+date
+time
+callsign
+rst
+location
+callsign
+rst
+location
+
+
+
+
+
+
