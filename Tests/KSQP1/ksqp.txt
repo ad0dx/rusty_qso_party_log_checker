@@ -6,9 +6,10 @@ Title=Kansas QSO Party
 TitleAbbrev=KSQP
 StateAbbrev=KS
 State=Kansas
+RootFolder=..\Tests\KSQP1\
 
 [ConfigFiles]
-Folder=c:\learn\qsopartylogchecker\ksqp\ConfigFiles
+Folder=ConfigFiles
 Counties=kscounties.txt
 States=states.txt
 ARRLSections = arrlsections.txt
@@ -16,14 +17,12 @@ Canada=Canada.txt
 Categories=Categories.txt
 
 [Folders]
-#Logs=c:\learn\qsopartylogchecker\test01
-#Logs=c:\learn\qsopartylogchecker\test04
-#Root=C:\Learn\QsoPartyLogChecker\KSQP
-Logs=C:\Learn\qsopartylogchecker\ksqp\logsyyy
-MissingLogs=C:\Learn\qsopartylogchecker\ksqp\MissingLogs
-Results=c:\learn\qsopartylogchecker\ksqp\Results
-LogReports=c:\learn\qsopartylogchecker\ksqp\LogReports
-HTML=c:\Learn\QsoPartyLogChecker\KSQP\html
+# Default folder names are shown, and can be changed if desired
+#Logs=Logs
+#MissingLogs=MissingLogs
+#Results=Results
+#LogReports=LogReports
+#HTML=Html
 
 [Qso]
 freq
