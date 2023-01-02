@@ -1,0 +1,43 @@
+# This is a comment
+# Kansas QSO Party Configuration File
+
+[General]
+Title=Kansas QSO Party
+TitleAbbrev=KSQP
+StateAbbrev=KS
+State=Kansas
+RootFolder=..\Tests\KSQP1\
+
+[ConfigFiles]
+Folder=ConfigFiles
+Counties=kscounties.txt
+States=states.txt
+ARRLSections = arrlsections.txt
+Canada=Canada.txt
+Categories=Categories.txt
+
+[Folders]
+# Default folder names are shown, and can be changed if desired
+#Logs=Logs
+#MissingLogs=MissingLogs
+#Results=Results
+#LogReports=LogReports
+#HTML=Html
+
+[Qso]
+freq
+mode
+date
+time
+callsign
+rst
+location
+callsign
+rst
+location
+
+
+
+
+
+
